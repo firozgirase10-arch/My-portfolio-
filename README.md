@@ -4,196 +4,140 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Firoz Girase | Portfolio</title>
-
-<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
-}
-
-body{
-    background:#eef4ff;
-}
-
-.container{
-    width:90%;
-    max-width:1100px;
-    margin:40px auto;
-    display:flex;
-    background:#fff;
-    border-radius:15px;
-    overflow:hidden;
-    box-shadow:0 5px 20px rgba(0,0,0,.2);
-}
-
-.left{
-    width:35%;
-    background:#0d6efd;
-    color:#fff;
-    text-align:center;
-    padding:30px;
-}
-
-.profile{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    border:5px solid #fff;
-    object-fit:cover;
-    margin-bottom:20px;
-}
-
-.left h1{
-    margin-bottom:8px;
-}
-
-.contact{
-    margin-top:30px;
-    text-align:left;
-}
-
-.contact p{
-    margin:15px 0;
-}
-
-.contact i{
-    margin-right:10px;
-}
-
-.right{
-    width:65%;
-    padding:35px;
-}
-
-section{
-    margin-bottom:30px;
-}
-
-section h2{
-    color:#0d6efd;
-    margin-bottom:15px;
-    border-bottom:2px solid #0d6efd;
-    padding-bottom:5px;
-}
-
-.skills{
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-}
-
-.skills span{
-    background:#0d6efd;
-    color:#fff;
-    padding:8px 15px;
-    border-radius:20px;
-}
-
-ul{
-    margin-left:20px;
-}
-
-p{
-    line-height:1.7;
-}
-
-@media(max-width:768px){
-.container{
-    flex-direction:column;
-}
-
-.left,.right{
-    width:100%;
-}
-
-.profile{
-    width:150px;
-    height:150px;
-}
-}
-</style>
-
 </head>
 
 <body>
 
-<div class="container">
+<header>
+    <nav>
+        <h2>Firoz</h2>
 
-<div class="left">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<img src="photo.jpg" alt="Profile Photo" class="profile">
+<section id="home" class="hero">
 
-<h1>Firoz Girase</h1>
-<p>B.Sc Computer Science Student</p>
+<div class="hero-text">
+<h1>Hello, I'm <span>Firoz Girase</span></h1>
 
-<div class="contact">
+<h3>B.Sc Computer Science Student</h3>
+
+<p>
+Passionate about Web Development, Programming and Technology.
+Currently looking for internship opportunities.
+</p>
+
+<a href="#contact" class="btn">Hire Me</a>
+
+<a href="resume.pdf" class="btn2">Download Resume</a>
+
+</div>
+
+<div class="hero-img">
+<img src="profile.jpg" alt="Profile">
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a B.Sc Computer Science student with knowledge of HTML, CSS, JavaScript, C, C++, and Python. I enjoy building responsive websites and continuously improving my programming skills.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="cards">
+
+<div class="card">
+<i class="fa-brands fa-html5"></i>
+<h3>HTML5</h3>
+</div>
+
+<div class="card">
+<i class="fa-brands fa-css3-alt"></i>
+<h3>CSS3</h3>
+</div>
+
+<div class="card">
+<i class="fa-brands fa-js"></i>
+<h3>JavaScript</h3>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-code"></i>
+<h3>C Programming</h3>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-laptop-code"></i>
+<h3>Python</h3>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project">
+
+<h3>Portfolio Website</h3>
+
+<p>
+A responsive portfolio website developed using HTML, CSS and JavaScript.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Student Management System</h3>
+
+<p>
+Simple student management project developed using C programming.
+</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
 <p><i class="fa-solid fa-envelope"></i> firozgirase10@gmail.com</p>
-<p><i class="fa-solid fa-graduation-cap"></i> SGPA : 8.18</p>
-<p><i class="fa-solid fa-certificate"></i> MS-CIT Certified</p>
-</div>
 
-</div>
+<p><i class="fa-brands fa-github"></i> github.com/yourusername</p>
 
-<div class="right">
-
-<section>
-<h2><i class="fa-solid fa-user"></i> About Me</h2>
-
-<p>
-I am a Second Year B.Sc Computer Science student with a strong interest in programming, web development and learning new technologies. I am looking for internship opportunities to improve my technical skills and gain practical experience.
-</p>
-</section>
-
-<section>
-<h2><i class="fa-solid fa-school"></i> Education</h2>
-
-<ul>
-<li>B.Sc Computer Science (Second Year)</li>
-<li>First Year SGPA: 8.18</li>
-<li>MS-CIT Certified</li>
-</ul>
+<p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/yourusername</p>
 
 </section>
 
-<section>
-<h2><i class="fa-solid fa-code"></i> Skills</h2>
+<footer>
 
-<div class="skills">
-<span>C</span>
-<span>HTML</span>
-<span>CSS</span>
-<span>Java</span>
-<span>MS Office</span>
-<span>Communication</span>
-<span>Problem Solving</span>
-</div>
+<p>© 2026 Firoz Girase | All Rights Reserved</p>
 
-</section>
+</footer>
 
-<section>
-<h2><i class="fa-solid fa-language"></i> Languages</h2>
-
-<p>English • Hindi • Marathi</p>
-
-</section>
-
-<section>
-<h2><i class="fa-solid fa-bullseye"></i> Career Objective</h2>
-
-<p>
-To obtain an internship where I can apply my knowledge, gain practical experience, and contribute to the organization while continuously improving my technical and professional skills.
-</p>
-
-</section>
-
-</div>
-
-</div>
+<script src="script.js"></script>
 
 </body>
 </html>
